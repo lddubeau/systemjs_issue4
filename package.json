@@ -1,0 +1,30 @@
+{
+  "name": "systemjs_issue3",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lddubeau/systemjs_issue3.git"
+  },
+  "author": "Louis-Dominique Dubeau <ldd@lddubeau.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^2.4.9",
+    "@angular/core": "^2.4.9",
+    "@angular/forms": "^2.4.9",
+    "argparse": "^1.0.9",
+    "bluebird": "^3.5.0",
+    "bootbox": "^4.4.0",
+    "express": "^4.15.2",
+    "jquery": "^3.1.1",
+    "morgan": "^1.8.1",
+    "rxjs": "^5.0.1",
+    "serve-static": "^1.12.1",
+    "systemjs": "^0.20.11",
+    "zone.js": "^0.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-lddubeau-base": "^1.0.4"
+  }
+}

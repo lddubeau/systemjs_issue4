@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <script type="text/javascript" src="node_modules/systemjs/dist/system.src.js"></script>
+    <script type="text/javascript">
+    if (typeof SystemJS === "undefined") {
+        SystemJS = System;
+    }
+    SystemJS.config({
+        baseURL: "./",
+        packages: {
+            "": {
+                defaultExtension: "js",
+            },
+        },
+    });
+    SystemJS.import("a").then((c) => {
+        console.log("index: loaded a");
+    });
+    setTimeout(() => {
+        SystemJS.import("x");
+    }, 1000);
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
