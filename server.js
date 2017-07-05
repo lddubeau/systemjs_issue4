@@ -38,7 +38,7 @@ const app = express();
 
 // This is the crucial bit in this server. Module d is arbitrarily delayed.
 app.use((req, res, next) => {
-  if (req.path === "/d.js") {
+  if (req.path === "/e.js") {
     setTimeout(next, 3000);
     return;
   }

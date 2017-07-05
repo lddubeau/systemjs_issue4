@@ -1,1 +1,1 @@
-define([], function () {});
+define(["./e"], function () {});
